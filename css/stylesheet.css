@@ -1,0 +1,38 @@
+
+body {
+  background-color: blanchedalmond;
+}
+
+#dialog {
+  background-color: rgba(255, 142, 50, 0.637);
+  width: 600px;
+  margin: auto;
+  padding: 60px 40px;
+  /* display: flex; */
+  text-align: center;
+  border: 1px solid #aaa;
+  box-shadow: 4px 4px 4px #888;
+  border-radius: 4px;
+}
+
+#choice {
+  display: flex;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  border: 1px solid #ccc;
+  background-color: rgb(245, 221, 207);
+  border-radius: 4px;
+  padding: 3px;
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:hover {
+  opacity: 0.7;
+}
